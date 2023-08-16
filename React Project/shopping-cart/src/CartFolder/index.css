@@ -1,0 +1,17 @@
+.cart-list{
+    display: flex;
+    padding: 10px;
+}
+.image-ele2{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.symbol-btn{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+.symbol-btn button{
+    padding: 5px 10px 5px 10px;
+}

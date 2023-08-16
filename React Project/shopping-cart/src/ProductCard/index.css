@@ -1,0 +1,33 @@
+
+.li-item{
+    width: 25%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 2%;
+}
+.image-ele{
+    width:250px;
+    height: 250px;
+}
+.addBtn{
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+.removeBtn{
+    background-color: red;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}

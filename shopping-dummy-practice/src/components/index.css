@@ -1,0 +1,19 @@
+.header{
+    background-color: black;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h3{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+.unordered{
+    padding-left: 0px;
+    list-style: none;
+}
+.names{
+    color: black;
+}
