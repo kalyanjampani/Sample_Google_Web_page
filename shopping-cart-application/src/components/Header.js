@@ -33,7 +33,7 @@ const Header = () => {
                             <>
                               {cart.map((prod)=>(
                                 <span className='cartitem' key={prod.id}>
-                                    <img className="cartItemImg" src="https://i1.wp.com/sawongam.com/wp-content/uploads/2021/02/House-of-the-Dragon-Trailer-Release-Date-Cast-Plot-Spoilers-for-the-Game-of-Thrones-Prequel-e1579718415683-scaled.jpg?resize=1536%2C864&ssl=1" alt={prod.name}/>
+                                    <img className="cartItemImg" src={prod.image} alt={prod.name}/>
                                     <div className="cartItemDetail">
                                         <span>{prod.name}</span>
                                         <span>₹ {prod.price.split(".")[0]}</span>

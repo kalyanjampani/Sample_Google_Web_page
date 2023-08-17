@@ -22,7 +22,7 @@ function Cart() {
             <ListGroup.Item key = {na.id}>
               <Row>
                 <Col md={2}>
-                  <Image src="https://i1.wp.com/sawongam.com/wp-content/uploads/2021/02/House-of-the-Dragon-Trailer-Release-Date-Cast-Plot-Spoilers-for-the-Game-of-Thrones-Prequel-e1579718415683-scaled.jpg?resize=1536%2C864&ssl=1" alt={na.name} fluid rounded />
+                  <Image src={na.image} alt={na.name} fluid rounded />
                 </Col>
                 <Col md = {2}>
                   <span>{na.name}</span>

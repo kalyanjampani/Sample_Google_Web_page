@@ -11,7 +11,7 @@ function SingleProduct({prod}) {
   return (
     <div className='products'>
         <Card>
-            <Card.Img variant="top" src="https://i1.wp.com/sawongam.com/wp-content/uploads/2021/02/House-of-the-Dragon-Trailer-Release-Date-Cast-Plot-Spoilers-for-the-Game-of-Thrones-Prequel-e1579718415683-scaled.jpg?resize=1536%2C864&ssl=1" alt={prod.name} />
+            <Card.Img variant="top" src={prod.image} alt={prod.name} />
             <Card.Body>
                 <Card.Title>{prod.name}</Card.Title>
                 <Card.Subtitle style = {{paddingBottom: 10}}>
